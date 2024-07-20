@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:#FFF8F3;
+}
+.todoApp{
+    width:80%;
+    max-width: 540px;
+    margin: auto;
+    box-shadow: 0px 0px 8px 0px  rgba(0,0,0,0.5);
+    border-radius: 12px;
+    margin-top:25px;
+    padding:12px 12px;
+    /* text-align: center; */
+}
+h1,.taskadder{
+    text-align: center;
+}
+.taskadder{
+    padding:15px;
+}
+#inputBox{
+    outline:none;
+    display:inline-block;
+    width:60%;
+    height:35px;
+}
+#addBtn{
+    font-size: 16px;
+    padding:8px;
+    height:35px;
+    background-color: #0b46b5;
+    color:White;
+    border: none;
+    border-radius: 8px;
+    font-weight:400 ;
+    
+}
+#addBtn:hover{
+    background-color: #0b47b5d3;
+}
+
+ul{
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+li{
+    border-radius: 40px;
+    padding:15px;
+    margin-bottom: 14px;
+    background-color: rgba(164, 163, 162, 0.187);
+    font-size: 25px;
+}
+
+li button{
+    background-color:#399918;
+    padding:8px;
+    float:right;
+    border:2px solid black;
+    color:White;
+    border-radius: 8px;
+    font-weight:400 ;
+    position: relative;
+    top:-9px;
+    font-size: 25px;
+
+}
+li button:hover{
+    background-color: red;
+}
+.complete{
+    text-decoration: line-through;
+}
+
+
+/* media query starts from here  */
+@media screen and (max-width:321px) {
+.todoApp{
+    width:99%;
+}
+li{
+    font-size: 12px;
+}
+li button{
+    font-size: 12px;
+}
+#inputBox{
+    height:20px;
+}
+#addBtn{
+    font-size: 12px;
+}
+
+}
