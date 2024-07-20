@@ -54,6 +54,7 @@ li{
     margin-bottom: 14px;
     background-color: rgba(164, 163, 162, 0.187);
     font-size: 25px;
+    width:100%;
 }
 
 li button{
@@ -78,7 +79,7 @@ li button:hover{
 
 
 /* media query starts from here  */
-@media screen and (max-width:321px) {
+@media screen and (max-width:426px) {
 .todoApp{
     width:99%;
 }
